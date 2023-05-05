@@ -1,11 +1,11 @@
 #!/bin/bash
 # elif statements
-if [ $1 -ge 18 ]
+if [ $1 -gt 100 ]
 then
-    echo You may go to the party.
-elif [ $2 == 'yes' ]
+    echo unlimited party.
+elif [ $1 -ge 16 ]
 then
-    echo You may go to the party but be back before midnight.
+    echo party with brothers.
 else
-    echo You may not go to the party.
+    echo No party!.
 fi
